@@ -11,12 +11,14 @@ void setup() {
     pinMode(inputPins[i], INPUT);
     digitalWrite(outputPins[i], HIGH);
   }
-  delay(500);
+  delay(5);
 }
 
 void loop() {
   for(int i = 0; i < NUM_SENSORS; i++) {
-    Serial.print("MOISTURE LEVEL:");
+    Serial.print("MOISTURE LEVEL ");
+		Serial.print(i);
+		Serial.print(" : ");
     values[i] = analogRead(inputPins[i]);
     Serial.println(values[i]);
 
@@ -28,5 +30,5 @@ void loop() {
   }
 
   Serial.println();
-  delay(1000);
+  delay(500);
 }
