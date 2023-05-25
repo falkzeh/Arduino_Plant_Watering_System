@@ -1,5 +1,13 @@
 # Arduino Plant Watering System
 
+- [Arduino Plant Watering System](#arduino-plant-watering-system)
+  * [Project Description](#project-description)
+  * [Features](#features)
+  * [Hardware Requirements](#hardware-requirements)
+  * [Software Requirements](#software-requirements)
+  * [Installation Guide](#installation-guide)
+  * [Usage](#usage)
+
 ## Project Description
 
 This project is an automated plant watering system designed for people like me who keep letting their plants die. It uses an Arduino UNO, moisture sensors, pumps, and a relay to provide a timely and accurate watering schedule for up to four plants. It aims to solve the problem of over watering or under watering, which are common issues in plant care.
